@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet,Image } from 'react-native';
+import { View, StyleSheet, Image } from 'react-native';
 import LoginButton from './components/LoginButton';
 import LoginInput from './components/LoginInput';
 import Logo from './components/Logo';
@@ -7,10 +7,10 @@ import Logo from './components/Logo';
 function Login() {
   return (
     <View style={styles.container}>
-      <Image/> {/*for test purpose*/}
+      <Image />
       <Logo />
-        <LoginInput placeholderText='Email or username' inputType='email-address' />
-        <LoginInput placeholderText='Password' inputType='visible-password' />
+      <LoginInput placeholderText='Email or username' inputType='email-address' />
+      <LoginInput placeholderText='Password' inputType='visible-password' />
       <LoginButton buttonText='LOG IN' />
     </View>
   );

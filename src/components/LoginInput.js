@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextInput, View, StyleSheet, Text } from 'react-native';
+import { TextInput, View, StyleSheet } from 'react-native';
 function LoginInput(props) {
   return (
     <View style={styles.textContainer}>
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   textContainer: {
-    width:350,
+    width: 350,
     backgroundColor: 'gray',
     borderWidth: 1,
     borderColor: '#e0e0e0',
